@@ -16,10 +16,10 @@
       display: flex;
       width: 60%;
       justify-content: center;
-      a{
+      a {
         text-decoration: none;
         color: #88c043;
-        &:hover{
+        &:hover {
           cursor: pointer;
           border-bottom: solid 2px #88c043;
         }
@@ -35,7 +35,7 @@
       }
     }
     .whatsapp {
-      a{
+      a {
         text-decoration: none;
         color: #88c043;
       }
@@ -73,7 +73,6 @@
           width: 45%;
           align-items: end;
 
-
           h1 {
             margin: 5px;
             font-size: 2.5rem;
@@ -89,7 +88,7 @@
             color: white;
             background-color: #88c043;
             border: none;
-            border-radius: 45px;
+            border-radius: 10px;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease 0s;
             cursor: pointer;
@@ -131,7 +130,8 @@
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
         -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
         box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        width: 30%;
+        width: 250px;
+        height: 250px;
         background: rgb(96, 149, 31);
         background: linear-gradient(
           227deg,
@@ -166,7 +166,8 @@
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
         -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
         box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        width: 30%;
+        width: 250px;
+        height: 250px;
         background: rgb(96, 149, 31);
         background: linear-gradient(
           227deg,
@@ -199,10 +200,11 @@
         }
       }
       .conector {
-        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        width: 30%;
+        -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        height: 250px;
         background: rgb(96, 149, 31);
         background: linear-gradient(
           227deg,
@@ -240,7 +242,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 50vh;
       width: 100%;
       padding-bottom: 3vh;
       h1 {
@@ -251,13 +252,28 @@
         color: #6f9343;
         text-shadow: 1px 2px 5px rgba(80, 139, 45, 0.55);
       }
-      iframe {
-        border-radius: 15px;
-        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
+      #maps {
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        height: 400px;
+      }
+      h3 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 2vh 0 4vh 0;
+        color: #6f9343;
+        text-shadow: 1px 2px 5px rgba(80, 139, 45, 0.55);
+        padding-bottom: 0;
+      }
+      #reviews {
+        margin-top: 10px;
         width: 100%;
-        height: 90%;
+        min-height: 350px;
       }
     }
     .contato {
@@ -266,7 +282,7 @@
         text-align: center;
         font-size: 2rem;
         padding: 2vh 0 2vh 0;
-        color:#6f9343;
+        color: #6f9343;
         text-shadow: 1px 2px 5px rgba(80, 139, 45, 0.55);
         font-weight: 700;
       }
@@ -274,17 +290,17 @@
         display: flex;
         flex-direction: column;
         padding: 20px;
-        border-radius: 15px;
-        -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.34);
-        input{
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+        input {
           margin: 5px 0 15px 0;
         }
-        textarea{
+        textarea {
           margin-top: 5px;
         }
-        button{
+        button {
           width: fit-content;
           align-self: flex-end;
           margin-top: 20px;
@@ -295,11 +311,57 @@
           border: none;
           border-radius: 10px;
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-          &:hover{
+          &:hover {
             cursor: pointer;
           }
         }
       }
+    }
+  }
+  .footer {
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    padding: 1% 5% 0 5%;
+    .endereco {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      line-height: 20px;
+      font-size: 16px;
+      h3 {
+        font-size: 1.5rem;
+        padding: 2vh 0 2vh 0;
+        color: #6f9343;
+        font-weight: 700;
+      }
+      .logradouro {
+        width: 60%;
+        i {
+          width: 50px;
+          height: 50px;
+          background-color: red;
+        }
+      }
+      .horarios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        .meio{
+          margin: 10px 0 10px 0;
+        }
+        .fds{
+          margin: 10px 0 10px 0;
+        }
+      }
+    }
+    .contatos {
+    }
+    .informacoes {
     }
   }
 }
