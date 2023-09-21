@@ -78,6 +78,7 @@ a {
   .body {
     width: 100%;
     margin: auto;
+    margin-top: 20px !important;
     .home {
       h3 {
         text-align: center;
@@ -539,6 +540,12 @@ a {
 .dropdown-toggle::after {
   display: none;
 }
+@media (min-width: 1920px){
+  .body{
+    width: 1920px !important;
+    margin-top: 20px !important;
+    }
+}
 @media (min-width: 1200px){
 .footer{
   .informacoes{
@@ -549,6 +556,7 @@ a {
 }
 }
 @media (max-width: 925px) {
+
   .footer {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
